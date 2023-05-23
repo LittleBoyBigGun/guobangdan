@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="uft-8" />
+  <title>随机生成</title>
+  <script src="./js/jquery-3.7.0.min.js"></script>
+  <script src="./js/echarts.min.js"></script>
+  <script src="./js/main.js"></script>
+  <link rel="stylesheet" type="text/css" href="./css/main.css" />
+</head>
+
+<body>
+  <div class="config">
+    <div class="input_box">
+      <div>
+      <label for="count">数量:</label>
+      <input type="text" id="count" />
+      </div>
+      <div>
+      <label for="weight">净重:</label>
+      <input type="text" id="weight" />
+      </div>
+      <div>
+      <label for="std">标差:</label>
+      <input type="text" id="stdm" />
+      </div>
+      <div>
+      <label for='pizhong'>皮重:</label>
+      <input type="text" id="pizhong"/>
+      </div>
+    </div>
+    <button id="cal">生成</button>
+  </div>
+  <div class="box">
+    <div id="table-holder">
+      <table></table>
+    </div>
+    <div id="holder"></div>
+  </div>
+  <div class="result">
+   
+  </div>
+</body>
+
+</html>
